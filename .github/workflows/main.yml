@@ -1,4 +1,4 @@
-name: tagDeploy
+name: tag deploy
 on:
   push:
     tags:
