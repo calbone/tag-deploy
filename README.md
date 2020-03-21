@@ -1,3 +1,3 @@
 # tag-deploy
-![](https://github.com/calbone/tag-deploy/workflows/tag deploy/badge.svg)
+![](https://github.com/calbone/tag-deploy/workflows/tagDeploy/badge.svg)
 ほげほげほげ
