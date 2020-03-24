@@ -1,15 +1,13 @@
-name: ESLint Check
+name: ESLintチェック
 on: push
 
-jobs:
-  ESLint:
-    name: ESLint Check
+jobs: 
+  eslint:
+    name: ESLintチェック
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Set Node.js 12.x
-        uses: actions/setup-node@1
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
         with:
           node-version: 12.x
       - run: yarn install
