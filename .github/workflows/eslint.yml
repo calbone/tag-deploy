@@ -2,7 +2,7 @@ name: ESLint
 on: push
 
 jobs: 
-  eslint:
+  ESLint:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
