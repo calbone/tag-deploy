@@ -1,8 +1,11 @@
 name: tag deploy
 on:
-  push:
-    tags:
-      - "v*"
+  release:
+    types:
+      - published
+  # push:
+  #   tags:
+  #     - "v*"
 
 jobs:
   deploy:
