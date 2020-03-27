@@ -1,8 +1,14 @@
 name: ESLint
-on: push
+on: 
+  push:
+    paths:
+      - '**.js'
+      - '.eslintrc.js'
+      - '.github/workflows/eslint.yml'
 
 jobs: 
   eslint:
+    name: ESLintチェック
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
